@@ -1,0 +1,17 @@
+2019-04-03 15:43:14.631  INFO 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : Starting SpringBootConfigApplicationTests on liuchengmin with PID 9336 (started by Administrator in F:\code\spring-boot-config)
+2019-04-03 15:43:14.633 DEBUG 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : Running with Spring Boot v1.4.2.RELEASE, Spring v4.3.4.RELEASE
+2019-04-03 15:43:14.633  INFO 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : The following profiles are active: dev
+2019-04-03 15:43:14.732  INFO 9336 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4648ce9: startup date [Wed Apr 03 15:43:14 CST 2019]; root of context hierarchy
+2019-04-03 15:43:18.001  INFO 9336 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4648ce9: startup date [Wed Apr 03 15:43:14 CST 2019]; root of context hierarchy
+2019-04-03 15:43:18.117  INFO 9336 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 15:43:18.119  INFO 9336 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 15:43:18.184  INFO 9336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 15:43:18.185  INFO 9336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 15:43:18.259  INFO 9336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 15:43:18.694  INFO 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : Started SpringBootConfigApplicationTests in 5.087 seconds (JVM running for 6.314)
+2019-04-03 15:43:18.740 TRACE 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : trace
+2019-04-03 15:43:18.740 DEBUG 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : debug
+2019-04-03 15:43:18.742  INFO 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : info
+2019-04-03 15:43:18.742  WARN 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : warn
+2019-04-03 15:43:18.742 ERROR 9336 --- [main] c.a.s.c.SpringBootConfigApplicationTests : error
+2019-04-03 15:43:18.751  INFO 9336 --- [Thread-1] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4648ce9: startup date [Wed Apr 03 15:43:14 CST 2019]; root of context hierarchy

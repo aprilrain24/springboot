@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.ajacom.listener.HelloApplicationContextInitializer
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.ajacom.listener.HelloSpringApplicationRunListener
